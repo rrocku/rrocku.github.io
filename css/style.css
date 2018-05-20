@@ -1,0 +1,230 @@
+* {box-sizing:border-box}
+body{
+
+
+  overflow: hidden;
+  height: 50%;
+  max-height: 50%;
+  font-family: lato;
+  line-height: 1.5em;
+  font-stretch: expanded;
+  font-size: 12px;
+  color: #aaa;
+
+}
+
+a{text-decoration: none;
+color: #999;
+font-size: 20px;
+font-weight:lighter;
+}
+
+
+#nav{
+  position: fixed;
+  top: 5%;
+  bottom: 5%;
+  right: 0%;
+
+  width:57%; /* Width of navigation frame */
+  height: 90%;
+  overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+  background: #;
+}
+
+main{
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 32%; /* Width of navigation frame */
+  height: 90%;
+  bottom: 10%;
+  overflow: hidden;
+  background: #;
+
+}
+
+mark{
+  position: fixed;
+
+  right: 2%;
+  bottom: 2%;
+  overflow: hidden;
+  background: #fff;
+
+}
+
+back {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+
+
+}
+
+.innertube{
+  margin: 15; /* Provides padding for the content */
+  max-width: 100%;
+   height:auto;
+   width:auto;
+
+
+}
+
+.wewn {
+  position:  absolute;
+  width: 100%;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.wewn1 {
+position: fixed;
+width: 100%;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+
+.text{
+
+
+  height: 50%;
+  max-height: 50%;
+  font-family: garamond;
+  text-align: bottom;
+  line-height: 1.5em;
+  font-stretch: expanded;
+  font-size: 12px;
+  color: #aaa;
+
+}
+
+.numbertext {
+  color: #aaa;
+  font-size: 12px;
+  padding: 0px;
+  position: absolute;
+  bottom:: 0%;
+  right: 0;
+  text-align: center;
+}
+
+
+.text1{
+
+
+  font-family: 'Old Standard TT', serif;
+  font-size: 21px;
+  line-height: 1.5em;
+  color: #111;
+text-align: left;
+
+}
+.text2{
+
+  height: 25px ;
+  font-family:garamond;
+  font-size: 20px;
+  text-align: right;
+  line-height: 1em;
+  color: #888;
+
+}
+
+
+
+p {
+  color: #555;
+
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  color: grey;
+  text-decoration: none;
+}
+
+/*IE6 fix*/
+* html body{
+  padding: 0 230px 0 0; /* Set the second value to the width of the navigation frame */
+}
+
+* html main{
+  height: 100%;
+  width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.mySlides {
+    display: none;
+    filter:  brightness(99%)
+}
+
+/* Next & previous buttons */
+.prev {
+  cursor: pointer;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left:0;
+    width:50%;
+    margin-top: 0px;
+    padding-top: 33%;
+    padding-right: 50%;
+    color:#eee;
+    opacity: 100%
+
+}
+.next {
+  cursor: pointer;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  width: auto;
+  opacity: 100%
+  margin-top: 0px;
+  padding-top: 33%;
+  padding-left: 50%;
+color:#eee;
+opacity: 100%
+
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0%;
+  border-radius: 3px 0 0 3px;
+
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}

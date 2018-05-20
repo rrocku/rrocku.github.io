@@ -1,0 +1,123 @@
+
+/* ogólne ------------------ */
+* {margin:0px; padding: 0%; }
+body {
+  font-family: 'Old Standard TT', serif;
+  line-height:1.6;
+  background: #fff;
+}
+
+
+#wrapper {
+  width:90%;
+  overflow:hidden;
+  margin: 0 auto;
+
+}
+a {color: #fff;}
+
+/* tresc ------------ */
+#content {
+  width:40%;
+  background: #eee;
+  float:left;
+  padding:2.5%;
+  overflow:hidden;
+ position: absolute;
+  top: 50%;
+  transform: translate(-0%,-50%);
+}
+
+/* menu ------------ */
+#menu {   background: #eee;
+  width:50%;
+  float:right;
+  padding:2.5%;
+  overflow:hidden;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+   #menu {width:88%; position:absolute; height:30px;}
+
+   #content {width: 98%;position:relative; top: 30px;margin-top:5%;}
+}
+
+
+
+.mySlides {
+    display: none;
+    filter:  brightness(99%)
+}
+
+/* Next & previous buttons */
+.prev {
+  cursor: pointer;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left:0;
+    width:50%;
+    margin-top: 0px;
+    padding-top: 33%;
+    padding-right: 50%;
+    color:#eee;
+    opacity: 100%
+
+}
+.next {
+  cursor: pointer;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  width: auto;
+  opacity: 100%
+  margin-top: 0px;
+  padding-top: 33%;
+  padding-left: 50%;
+color:#eee;
+opacity: 100%
+
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0%;
+  border-radius: 3px 0 0 3px;
+
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.numbertext {
+  color: #aaa;
+  font-size: 12px;
+  padding: 0px;
+  position: absolute;
+  bottom:: 0%;
+  right: 0;
+  text-align: center;
+}
+.text{
+
+
+  height: 50%;
+  max-height: 50%;
+  text-align: bottom;
+  line-height: 1.5em;
+  font-stretch: expanded;
+  font-size: 12px;
+  color: #FFF;
+
+}
